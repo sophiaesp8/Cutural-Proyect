@@ -318,15 +318,39 @@ button {
 }
 
 .section-contact {
-  background: #0f2941;
-  color: #f3f9ff;
+  background: #d9efff;
+  color: var(--text);
+}
+
+.section-contact .section-heading {
+  color: var(--text);
+  text-align: center;
+}
+
+.section-contact .section-heading .eyebrow {
+  color: var(--accent-dark);
 }
 
 .section-contact .section-heading h3,
-.section-contact .section-heading .eyebrow,
 .section-contact .form-intro,
 .section-contact .contact-summary p {
-  color: #f3f9ff;
+  color: var(--text);
+}
+
+.section-contact .section-heading h3 {
+  margin-top: 0.5rem;
+}
+
+.section-contact .form-intro {
+  margin-bottom: 1rem;
+}
+
+.section-contact .contact-summary {
+  border-top-color: rgba(16, 42, 67, 0.12);
+}
+
+.section-contact .contact-summary a {
+  color: var(--accent-dark);
 }
 
 .section-contact .contact-summary {
